@@ -15,4 +15,4 @@ methods: {
   }
 }
 ```
-![sketch]('sketch.png')
+![sketch](sketch.png)
