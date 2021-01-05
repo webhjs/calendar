@@ -78,7 +78,7 @@ export default {
         date = new Date(cur)
       } else {
         var now = new Date()
-        var d = new Date(this.formatDate(now.getFullYear(), now.getMonth(), 1))
+        var d = new Date(this.formatDate(now.getFullYear(), now.getMonth() + 1, 1))
         d.setDate(41)
         date = new Date(this.formatDate(d.getFullYear(), d.getMonth() + 1, 1))
       }
