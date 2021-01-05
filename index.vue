@@ -80,7 +80,7 @@ export default {
         var now = new Date()
         var d = new Date(this.formatDate(now.getFullYear(), now.getMonth() + 1, 1))
         d.setDate(41)
-        date = new Date(this.formatDate(d.getFullYear(), d.getMonth() + 1, 1))
+        date = new Date(this.formatDate(d.getFullYear(), d.getMonth(), 1))
       }
       this.currentDay = date.getDate()
       this.currentYear = date.getFullYear()
